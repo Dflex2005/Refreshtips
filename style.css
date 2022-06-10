@@ -39,7 +39,7 @@ header{
 }
 
 .heading-left .title h1{
-    font-size: 40px;
+    font-size: 35px;
     font-family:cursive;
 }
 
@@ -90,7 +90,7 @@ main{
     width: 100%;
     background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/green-chameleon-s9CC2SKySJM-unsplash.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ main{
 }
 
 .main-left .main-title{
-    font-size: 30px;
+    font-size: 25px;
     font-family: cursive;
 }
 
@@ -488,7 +488,7 @@ footer .footer-text{
     }
 
     .heading-left .title h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .heading-right{
