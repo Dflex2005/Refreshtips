@@ -4,7 +4,7 @@ const scrollBtn = document.querySelector(".scroll-btn");
 const header = document.querySelector("header");
 window.addEventListener("scroll", ()=>{
     scrollBtn.classList.toggle("active", window.scrollY > 500);
-    header.classList.toggle("change", window.scrollY > 0);
+    header.classList.toggle("change", window.scrollY > 50);
 });
 
 scrollBtn.addEventListener("click", ()=>{
