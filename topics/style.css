@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+
+
+.scroll-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    padding: 8px 10px;
+    background: rgb(187, 42, 187);
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 999;
+    display: none;
+}
+
+.scroll-btn.active{
+    display: block;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    transition: 0.7s ease;
+    z-index: 999;
+}
+
+header.active{
+    background-color: white;
+    color: black;
+}
+
+
+header h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.btn-container{
+    margin-top: 100px;
+    display:none;
+}
+
+
+.btn-container a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    background: rgb(187, 42, 187);
+    font-family: consolas;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(187, 42, 187);
+    transition: 0.7s ease;
+}
+
+.btn-container a:hover{
+    background: white;
+    color: black;
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+
+
+.debate-container, .article-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(20, 20, 20) ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(206, 80, 195, 0.507);
+    margin: 80px 20px;
+}
+
+
+.topics .title{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topics ul{
+    padding: 10px;
+}
+
+.topics ul li{
+    list-style: circle;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* footer styling */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .footer-links a{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+footer .footer-links a:hover{
+    color: rgb(187, 42, 187);
+    transform: translateY(5px);
+}
+
+footer .footer-title{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+footer .footer-title span{
+    font-family: consolas;
+}
+
+
+/* media query */
+
+@media(max-width:1119px){
+    .btn-container{
+        display: block;
+    }
+}
+
+
+@media(max-width:450px){
+   header h1{
+    font-size: 26px;
+   }
+
+}
+
+
