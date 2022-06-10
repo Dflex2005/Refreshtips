@@ -90,8 +90,7 @@ main{
     width: 100%;
     background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/green-chameleon-s9CC2SKySJM-unsplash.jpg");
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: left center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
