@@ -90,7 +90,6 @@ nextBtn.addEventListener("click", ()=>{
     }else{
         clearInterval(counter);
         clearInterval(counterLine);
-        console.log('Questions completed');
         showResultBox();
     }
 
@@ -126,14 +125,11 @@ function optionSelected(answer){
     let allOptions = optionList.children.length;
     if(userAns == correctAns){
         userScore += 1;
-        console.log(userScore);
         answer.classList.add("correct");
-        console.log("correct answer");
         answer.insertAdjacentHTML("beforeend", tickIcon);
     }else{
         answer.classList.add("incorrect");
         answer.insertAdjacentHTML("beforeend", crossIcon);
-        console.log("wrong answer");
 
        for(let i=0; i< allOptions; i++){
         if(optionList.children[i].textContent == correctAns){

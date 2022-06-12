@@ -96,6 +96,70 @@ main{
     justify-content: space-around;
     color: white;
     position: relative;
+    animation: changeBG 15s ease-in infinite;
+}
+
+@keyframes changeBG {
+    0%{
+        background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/green-chameleon-s9CC2SKySJM-unsplash.jpg");
+        background-size: cover;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    25%{
+        background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/alexandre-van-thuan-mr9FouttLGY-unsplash.jpg");
+        background-size: cover;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    50%{
+        background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/jaredd-craig-HH4WBGNyltc-unsplash.jpg");
+        background-size: cover;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    75%{
+        background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/mikolaj-DCzpr09cTXY-unsplash.jpg");
+        background-size: cover;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    100%{
+        background: linear-gradient(rgba(7, 7, 7, 0.2), rgb(126, 79, 119)), url("images/green-chameleon-s9CC2SKySJM-unsplash.jpg");
+        background-size: cover;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
 }
 
 .main-left{
@@ -152,12 +216,12 @@ main{
     height: 20px;
     overflow: hidden;
     display: flex;
-    width: 175px;
+    width: 185px;
 }
 
 .main-right .link-desc p{
-    line-height: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+    font-family: consolas;
     font-weight: 600;
 }
 
@@ -175,7 +239,7 @@ main{
     }
 
     50%{
-        margin-left: -155px;
+        margin-left: -195px;
     }
 
     100%{
