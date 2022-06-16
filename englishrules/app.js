@@ -24,6 +24,7 @@ topics.addEventListener("click", ()=>{
 links.classList.toggle("show-links");
 angleUp.classList.toggle("active");
 angleDown.classList.toggle("active");
+
 });
 
 allLinks.forEach((link)=>{

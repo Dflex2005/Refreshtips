@@ -115,7 +115,7 @@ header .header-container a:hover{
 /* section */
 .stress, .concord{
     margin: 20px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 
@@ -174,7 +174,7 @@ header .header-container a:hover{
     header .header-container .show-links a{
         display: flex;
         flex-direction: column;
-        background: rgb(187, 42, 187);
+        background: #000;
         position: relative;
         height: 20px;
         width: 200px;
