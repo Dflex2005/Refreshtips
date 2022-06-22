@@ -226,7 +226,7 @@ main{
 }
 
 .main-right .link-desc p:nth-child(1){
-    animation: move 10s infinite ease;
+    animation: move 12s infinite ease;
 }
 
 .main-right .link-desc p:not(:last-child){
@@ -239,7 +239,7 @@ main{
     }
 
     50%{
-        margin-left: -195px;
+        margin-left: -205px;
     }
 
     100%{
@@ -334,7 +334,7 @@ main{
 
 .tips{
     font-size: 40px;
-    font-family: consolas;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 40px;
     font-weight: 700;
@@ -497,7 +497,7 @@ footer{
 
 
 footer .footer-text{
-    color: rgb(187, 42, 187);
+    color: white;
     text-align: center;
     padding: 8px;
 }
@@ -626,6 +626,11 @@ footer .footer-text{
 @media(max-width:400px){
     .container .combine .filter-btn{
         margin-right: 0;
+    }
+
+    .typing-text{
+        font-size: 15px;
+        margin-left: -8px;
     }
 }
 

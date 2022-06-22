@@ -9,6 +9,16 @@ body{
     background: rgb(187, 42, 187);
 }
 
+ .arrow-left{
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
 .start-btn,
 .content-box,
 .quiz-box,
@@ -205,6 +215,7 @@ body{
     left: 0px;
     height: 3px;
     background-color: rgb(187, 42, 187);
+    
 }
 
 .quiz-box section{
@@ -412,6 +423,10 @@ footer .next-btn:hover{
     .result-box,
     .quiz-box{
         width: 90%;
+    }
+
+    .quiz-box header .timer-line{
+        display: none;
     }
 
     .quiz-box section .question-text{

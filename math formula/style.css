@@ -6,6 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 218, 236);
 }
 
 .scroll-btn{
@@ -57,11 +58,31 @@ header .header-title h1{
     color: white;
 }
 
+.change .header-r{
+    color: white;
+}
+
+header .arrow-left{
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.change .arrow-left{
+    color: white;
+}
+
 header .header-container{
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
 }
+
+
 
 header .header-container .topics{
     display: flex;
@@ -182,6 +203,10 @@ header .header-container a{
     padding-top: 110px;
 }
 
+.all-style hr{
+    margin: 0 20px;
+}
+
 .all-style .section-title{
     font-size: 25px;
     text-transform: uppercase;
@@ -204,9 +229,35 @@ header .header-container a{
 }
 
 
+/* footer styling */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+footer .footer-links a{
+    color: #000;
+    font-size: 30px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
 
+footer .footer-links a:hover{
+    color: rgb(114, 13, 114);
+    transform: translateY(5px);
+}
 
+footer .footer-title{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+footer .footer-title span{
+    font-family: consolas;
+}
 
 
 

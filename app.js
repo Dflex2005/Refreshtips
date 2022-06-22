@@ -1,5 +1,5 @@
 //typing function
-const typing =["Helps you to learn more", "Helps you to have ideas on different topics", "Latest information on education"]
+const typing =["Helps you to learn more", "Offers educational tips", "Give you access to free learning"]
 
 let count = 0;
 let index = 0;
@@ -66,15 +66,15 @@ const keyPoints = [
 },
 {
     id:4,
-    img:"./images/science-icon1.png",
-    title:"Science",
-    text:" Sorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
+    img:"./images/business.png",
+    title:"Commercial",
+    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
 },
 {
     id:5,
-    img:"./images/science-icon1.png",
-    title:"Science",
-    text:" Sorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
+    img:"./images/business.png",
+    title:"Commercial",
+    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
 },
 {
     id:6,
@@ -84,58 +84,22 @@ const keyPoints = [
 },
 {
     id:7,
-    img:"./images/business.png",
-    title:"Commercial",
-    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
+    img:"./images/art-icon.png",
+    title:"Art",
+    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
 },
 {
     id:8,
-    img:"./images/business.png",
-    title:"Commercial",
-    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
+    img:"./images/art-icon.png",
+    title:"Art",
+    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
 },
 {
     id:9,
-    img:"./images/business.png",
-    title:"Commercial",
-    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:10,
-    img:"./images/business.png",
-    title:"Commercial",
-    text:" Corem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:11,
     img:"./images/art-icon.png",
     title:"Art",
     text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:12,
-    img:"./images/art-icon.png",
-    title:"Art",
-    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:13,
-    img:"./images/art-icon.png",
-    title:"Art",
-    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:14,
-    img:"./images/art-icon.png",
-    title:"Art",
-    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
-{
-    id:15,
-    img:"./images/art-icon.png",
-    title:"Art",
-    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
-},
+}
 ];
 
 const showContent = document.querySelector(".show-content");
