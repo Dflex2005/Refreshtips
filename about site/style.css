@@ -64,7 +64,7 @@ header .img-card img{
 }
 
 .info .info-content{
-    font-size: 17px;
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 7px;
     margin-top: 5px;
@@ -196,7 +196,7 @@ button[type="submit"]:hover{
 }
 
 #status.success{
-    background-color: green;
+    background-color: rgb(26, 190, 26);
     animation:status 4s ease forwards ;
 }
 
