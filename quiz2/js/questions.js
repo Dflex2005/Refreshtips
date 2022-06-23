@@ -25,7 +25,7 @@ let questions = [
     {
         numb: 3,
         question: "the richest man in the world",
-        answer: "jeff becoz",
+        answer: "elon musk",
         options: [
             "elon musk",
             "bill gate",
@@ -47,7 +47,7 @@ let questions = [
     {
         numb: 5,
         question: "the best musician in nigeria",
-        answer: "fireboy",
+        answer: "olamide",
         options: [
             "fireboy",
             "joeboy",
