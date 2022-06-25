@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "The powerhouse of a cell",
-        answer: "mitochondria",
+        question: "Choose the nearest in meaning <br> <em>Purchase</em>",
+        answer: "buy",
         options: [
-            "mitochondria",
-            "cell sap",
-            "cell wall",
-            "cellulose"
+            "sell",
+            "receive",
+            "buy",
+            "achieve"
         ]
     },
     {
         numb: 2,
-        question: "2 + 2",
-        answer: "4",
+        question: "The press must cater for the _______ public",
+        answer: "reading",
         options: [
-            "5",
-            "8",
-            "4",
-            "10"
+            "reader",
+            "reading",
+            "read",
+            "readable"
         ]
     },
     {
         numb: 3,
-        question: "the richest man in the world",
-        answer: "elon musk",
+        question: "If 2log a = log 64, find a?",
+        answer: "8",
         options: [
-            "elon musk",
-            "bill gate",
-            "larry page",
-            "jeff becoz"
+            "4",
+            "8",
+            "16",
+            "32"
         ]
     },
     {
         numb: 4,
-        question: "The best phone in the world",
-        answer: "iPhone",
+        question: "If the second and the fourth term of a G.P are 8 and 32 respectively. <br>Find the common ratio.",
+        answer: "2",
         options: [
-            "samsung",
-            "tecno",
-            "iPhone",
-            "itel"
+            "4",
+            "8",
+            "2",
+            "6"
         ]
     },
     {
         numb: 5,
-        question: "the best musician in nigeria",
-        answer: "olamide",
+        question: "What is the full meaning of SIM",
+        answer: "Subscriber Identity Module",
         options: [
-            "fireboy",
-            "joeboy",
-            "olamide",
-            "davido"
+            "Subscriber Identification Module",
+            "Subscriber Identity Module",
+            "Subscribing Identification Module",
+            "Subscriber Identification Modulus"
         ]
     }
 ];

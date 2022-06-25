@@ -191,14 +191,16 @@ header .header-container a:hover{
     list-style: circle;
 }
 
-.letter .i-img{
+.letter .i-img,
+.letter .f-img{
     margin: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.letter .i-img img{
+.letter .i-img img,
+.letter .f-img img{
     border-radius: 20px;
     box-shadow: 0px 0px 20px #000;
 }
@@ -289,7 +291,24 @@ footer .footer-title span{
 
 /* media query */
 
+@media(max-width:1000px){
+    .letter .f-img{
+        margin:15px -5px ;
+    }
+                
+    .letter .f-img img{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media(max-width:800px){
+    .letter .i-img{
+        margin:15px -5px;
+    }
+
     .letter .i-img img{
         display: flex;
         width: 100%;
