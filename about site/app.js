@@ -31,3 +31,7 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit);
+
+// date
+const date = new Date().getFullYear();
+    document.querySelector(".date").innerHTML = date;
