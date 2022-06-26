@@ -98,7 +98,7 @@ const keyPoints = [
     id:9,
     img:"./images/art-icon.png",
     title:"Art",
-    text:" Aorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore, voluptatum libero optio fugit magnam est soluta veniam minima accusantium, at harum dicta ipsum blanditiis omnis. Natus eum, laborum in nam dignissimos molestiae maxime hic esse neque architecto quo ex animi numquam sequi ullam culpa quae voluptate nulla? Tempora, dolorem.",
+    text:"Prose is a common language people use in speaking or writing.",
 }
 ];
 
