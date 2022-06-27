@@ -2,57 +2,58 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the nearest in meaning <br> <em>Purchase</em>",
-        answer: "buy",
+        question: "Choose the opposite in meaning <br> <em>Strict</em>",
+        answer: "easy going",
         options: [
-            "sell",
-            "receive",
-            "buy",
-            "achieve"
+            "simple",
+            "easy going",
+            "obedient",
+            "good"
         ]
     },
     {
         numb: 2,
-        question: "The press must cater for the _______ public",
-        answer: "reading",
+        question: "_______ I would like to go to England, but i cannot",
+        answer: "Naturally",
         options: [
-            "reader",
-            "reading",
-            "read",
-            "readable"
+            "Usually",
+            "Never",
+            "Naturally",
+            "Frequently"
         ]
     },
     {
         numb: 3,
-        question: "If 2log a = log 64, find a?",
-        answer: "8",
+        question: "If 2log a = log 100, find a?",
+        answer: "10",
         options: [
-            "4",
-            "8",
-            "16",
-            "32"
+            "5",
+            "20",
+            "10",
+            "36"
         ]
     },
     {
         numb: 4,
-        question: "If the second and the fourth term of a G.P are 8 and 32 respectively. <br>Find the common ratio.",
+        question: "2, 3, 5, 6, 6, 6, 4, 2, 6, 2, 7, 9, 4, 2, 8, 2 <br>Find the Mode",
         answer: "2",
         options: [
             "4",
-            "8",
+            "3",
             "2",
             "6"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of SIM",
-        answer: "Subscriber Identity Module",
+        question: "What is the full meaning of OS",
+        answer: "Operating System",
         options: [
-            "Subscriber Identification Module",
-            "Subscriber Identity Module",
-            "Subscribing Identification Module",
-            "Subscriber Identification Modulus"
+            "Operator System",
+            "Operating System",
+            "Operating Source",
+            "Operator Source"
         ]
     }
 ];
+
