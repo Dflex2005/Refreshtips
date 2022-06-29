@@ -36,6 +36,7 @@ let counter;
 let timerValue = 30;
 let userScore = 0;
 
+
 const nextBtn = quizBox.querySelector(".next-btn");
 const resultBox = document.querySelector(".result-box");
 const restartQuiz = resultBox.querySelector(".buttons .restart");
