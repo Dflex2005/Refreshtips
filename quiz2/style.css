@@ -209,14 +209,7 @@ body{
     user-select: none;
 }
 
-.quiz-box header .timer-line{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 3px;
-    background-color: rgb(187, 42, 187);
-    
-}
+
 
 .quiz-box section{
     padding: 25px 30px 20px 30px;
@@ -425,9 +418,6 @@ footer .next-btn:hover{
         width: 90%;
     }
 
-    .quiz-box header .timer-line{
-        display: none;
-    }
 
     .quiz-box section .question-text{
         font-size: 18px;

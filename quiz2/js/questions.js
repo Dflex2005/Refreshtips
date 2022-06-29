@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the opposite in meaning <br> <em>Strict</em>",
-        answer: "easy going",
+        question: "Choose the opposite in meaning <br> <em>Cautiously</em>",
+        answer: "rashly",
         options: [
-            "simple",
-            "easy going",
-            "obedient",
-            "good"
+            "finally",
+            "slowly",
+            "rashly",
+            "quickly"
         ]
     },
     {
         numb: 2,
-        question: "_______ I would like to go to England, but i cannot",
-        answer: "Naturally",
+        question: "The girl brought some ______ to make a skirt",
+        answer: "cloth",
         options: [
-            "Usually",
-            "Never",
-            "Naturally",
-            "Frequently"
+            "suit",
+            "cloth",
+            "dress",
+            "clothes"
         ]
     },
     {
         numb: 3,
-        question: "If 2log a = log 100, find a?",
-        answer: "10",
+        question: "Given that 1/3log P = 1, find P",
+        answer: "1000",
         options: [
-            "5",
-            "20",
             "10",
-            "36"
+            "1",
+            "1000",
+            "100"
         ]
     },
     {
         numb: 4,
-        question: "2, 3, 5, 6, 6, 6, 4, 2, 6, 2, 7, 9, 4, 2, 8, 2 <br>Find the Mode",
-        answer: "2",
+        question: "simplify log 6 + log 2 - log 12",
+        answer: "1",
         options: [
-            "4",
+            "0",
             "3",
             "2",
-            "6"
+            "1"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of OS",
-        answer: "Operating System",
+        question: "What is the full meaning of GPS",
+        answer: "Global Positioning System",
         options: [
-            "Operator System",
-            "Operating System",
-            "Operating Source",
-            "Operator Source"
+            "General Position System",
+            "Global Positioning System",
+            "Global Positioning Service",
+            "General Position Service"
         ]
     }
 ];

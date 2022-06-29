@@ -6,7 +6,6 @@ const continueBtn = contentBox.querySelector(".buttons .restart");
 const quizBox = document.querySelector(".quiz-box");
 const optionList = document.querySelector(".option-list");
 const timeCount = quizBox.querySelector(".timer .timer-sec");
-const timerLIne = quizBox.querySelector("header .timer-line");
 const timerOff = quizBox.querySelector("header .timer-text");
 
 
@@ -28,16 +27,13 @@ continueBtn.addEventListener("click", ()=>{
     quizBox.classList.add("active");
     showQuestions(0);
     queCounter(1);
-    startTimer(15);
-    startTimerLine(0);
+    startTimer(30);
 });
 
 let queCount = 0;
 let queNumb = 1;
 let counter;
-let counterLine;
-let timerValue = 15;
-let widthValue = 0;
+let timerValue = 30;
 let userScore = 0;
 
 const nextBtn = quizBox.querySelector(".next-btn");
@@ -52,8 +48,7 @@ restartQuiz.addEventListener("click", ()=>{
     quizBox.classList.add("active")
     let queCount = 0;
     let queNumb = 1;
-    let timerValue = 15;
-    let widthValue = 0;
+    let timerValue = 30;
     let userScore = 0;
         queCount++;
         queNumb++;
@@ -61,8 +56,6 @@ restartQuiz.addEventListener("click", ()=>{
     queCounter(queNumb);
     clearInterval(counter);
     startTimer(timerValue);
-    clearInterval(counterLine);
-    startTimerLine(widthValue);
     nextBtn.style.display = "none";
     timerOff.textContent = "Time Left";
     window.location.reload();
@@ -83,13 +76,10 @@ nextBtn.addEventListener("click", ()=>{
         queCounter(queNumb);
         clearInterval(counter);
         startTimer(timerValue);
-        clearInterval(counterLine);
-        startTimerLine(widthValue);
         nextBtn.style.display = "none";
         timerOff.textContent = "Time Left";
     }else{
         clearInterval(counter);
-        clearInterval(counterLine);
         showResultBox();
     }
 
@@ -119,7 +109,6 @@ let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 function optionSelected(answer){
     clearInterval(counter);
-    clearInterval(counterLine);
     let userAns = answer.textContent;
     let correctAns = questions[queCount].answer;
     let allOptions = optionList.children.length;
@@ -176,7 +165,7 @@ function startTimer(time){
         if(time < 0){
             clearInterval(counter);
             timeCount.textContent = "00";
-            timerOff.textContent = "Time Off";
+            timerOff.textContent = "Time Up";
 
             let correctAns = questions[queCount].answer;
             let allOptions = optionList.children.length;
@@ -195,20 +184,6 @@ function startTimer(time){
         }
     }
 }
-
-function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
-    function timer(){
-        time += 1;
-       timerLIne.style.width = time + "px"
-        if(time > 549){
-            clearInterval(counterLine);
-        }
-    }
-}
-
-
-
 
 
 
