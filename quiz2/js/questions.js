@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the nearest in meaning <br> <em>Founded</em>",
-        answer: "established",
+        question: "Choose the nearest in meaning <br>The apprentice found himself working for a <em>hard</em> master.",
+        answer: "stern",
         options: [
-            "made",
-            "discovered",
-            "established",
-            "based"
+            "solid",
+            "stern",
+            "unforgivable",
+            "inclement"
         ]
     },
     {
         numb: 2,
-        question: "A _______ child could learn to read before the age of four.",
-        answer: "gifted",
+        question: "Lagos is twelve miles ________ Ekiti",
+        answer: "from",
         options: [
-            "gifted",
-            "talented",
-            "brilliant",
-            "presented"
+            "with",
+            "to",
+            "from",
+            "by"
         ]
     },
     {
         numb: 3,
-        question: "The police had no evidence to go ______ so they released the suspect.",
-        answer: "on",
+        question: "Choose the idea that express the following sentence <br> HE WAS TOLD TO STICK TO THE POINT",
+        answer: "He was told to keep to the topic under discussion",
         options: [
-            "into",
-            "on",
-            "through",
-            "under"
+            "He was told to keep to the topic under discussion",
+            "He was told further explain the topic",
+            "He was told to consider something else",
+            "He was told to be irrelevant"
         ]
     },
     {
         numb: 4,
-        question: "Express 0.000000407, correct to 2 significant figures.",
-        answer: "0.00000041",
+        question: "Solve 6(x-4) + 3(x+7) = 3",
+        answer: "2/3",
         options: [
-            "0.004",
-            "0.0",
-            "0.00000047",
-            "0.00000041"
+            "2/3",
+            "3/2",
+            "6/5",
+            "3"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of CD",
-        answer: "Compact Disk",
+        question: "What is the full meaning of VPN",
+        answer: "Virtual Private Network",
         options: [
-            "Computer Drive",
-            "Compact Disk",
-            "Computer Disk",
-            "Compact Drive"
+            "Virtual Personal Network",
+            "Virtue Private Network",
+            "Virtual Privated Network",
+            "Virtual Private Network"
         ]
     }
 ];
