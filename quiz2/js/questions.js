@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the opposite in meaning <br> <em>Cautiously</em>",
-        answer: "rashly",
+        question: "Choose the nearest in meaning <br> <em>Founded</em>",
+        answer: "established",
         options: [
-            "finally",
-            "slowly",
-            "rashly",
-            "quickly"
+            "made",
+            "discovered",
+            "established",
+            "based"
         ]
     },
     {
         numb: 2,
-        question: "The girl brought some ______ to make a skirt",
-        answer: "cloth",
+        question: "A _______ child could learn to read before the age of four.",
+        answer: "gifted",
         options: [
-            "suit",
-            "cloth",
-            "dress",
-            "clothes"
+            "gifted",
+            "talented",
+            "brilliant",
+            "presented"
         ]
     },
     {
         numb: 3,
-        question: "Given that 1/3log P = 1, find P",
-        answer: "1000",
+        question: "The police had no evidence to go ______ so they released the suspect.",
+        answer: "on",
         options: [
-            "10",
-            "1",
-            "1000",
-            "100"
+            "into",
+            "on",
+            "through",
+            "under"
         ]
     },
     {
         numb: 4,
-        question: "simplify log 6 + log 2 - log 12",
-        answer: "1",
+        question: "Express 0.000000407, correct to 2 significant figures.",
+        answer: "0.00000041",
         options: [
-            "0",
-            "3",
-            "2",
-            "1"
+            "0.004",
+            "0.0",
+            "0.00000047",
+            "0.00000041"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of GPS",
-        answer: "Global Positioning System",
+        question: "What is the full meaning of CD",
+        answer: "Compact Disk",
         options: [
-            "General Position System",
-            "Global Positioning System",
-            "Global Positioning Service",
-            "General Position Service"
+            "Computer Drive",
+            "Compact Disk",
+            "Computer Disk",
+            "Compact Drive"
         ]
     }
 ];
