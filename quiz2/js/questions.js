@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the nearest in meaning <br>The apprentice found himself working for a <em>hard</em> master.",
-        answer: "stern",
+        question: "Choose the nearest in meaning <br>The idea was so <em><strong>far-fetched</strong></em> that we could not even consider it.",
+        answer: "unrealistic",
         options: [
-            "solid",
-            "stern",
-            "unforgivable",
-            "inclement"
+            "unyielding",
+            "artifical",
+            "far behind",
+            "unrealistic"
         ]
     },
     {
         numb: 2,
-        question: "Lagos is twelve miles ________ Ekiti",
-        answer: "from",
+        question: "Solomon would have liked _______ the story about magic.",
+        answer: "to believe",
         options: [
-            "with",
-            "to",
-            "from",
-            "by"
+            "believe",
+            "to believe",
+            "believing",
+            "belief"
         ]
     },
     {
         numb: 3,
-        question: "Choose the idea that express the following sentence <br> HE WAS TOLD TO STICK TO THE POINT",
-        answer: "He was told to keep to the topic under discussion",
+        question: "Choose the idea that express the following sentence <br> EITHER DAVID OR EMMANUEL WILL HELP YOU",
+        answer: "One of them will help you",
         options: [
-            "He was told to keep to the topic under discussion",
-            "He was told further explain the topic",
-            "He was told to consider something else",
-            "He was told to be irrelevant"
+            "None of them will help you",
+            "One of them will help you",
+            "Both of them will help you",
+            "David will help but emmanuel will not"
         ]
     },
     {
         numb: 4,
-        question: "Solve 6(x-4) + 3(x+7) = 3",
-        answer: "2/3",
+        question: "The variance of a given distribution is 25. What is the standard deviation.",
+        answer: "5",
         options: [
-            "2/3",
-            "3/2",
-            "6/5",
-            "3"
+            "25",
+            "125",
+            "5",
+            "0"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of VPN",
-        answer: "Virtual Private Network",
+        question: "What is the full meaning of ATM",
+        answer: "Automatic Teller Machine",
         options: [
-            "Virtual Personal Network",
-            "Virtue Private Network",
-            "Virtual Privated Network",
-            "Virtual Private Network"
+            "Automatic Teller Machines",
+            "Automatic Tax Machine",
+            "Automatic Teller Machine",
+            "Automatical Teller Machine"
         ]
     }
 ];

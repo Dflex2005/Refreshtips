@@ -86,6 +86,7 @@ nextBtn.addEventListener("click", ()=>{
 
 });
 
+
 // getting questions an options from array
 function showQuestions(index){
     const questionText = document.querySelector(".question-text");
@@ -195,3 +196,16 @@ function queCounter(index){
     bottomQueCounter.innerHTML = totalQueTag;
 }
 
+
+// end exam
+function endExam(){
+    nextBtn.addEventListener("click", ()=>{
+        if(queCount > questions.length -2){
+            nextBtn.textContent = "End Quiz";
+         }else{
+             nextBtn.textContent = "Next Question";
+         }
+    })
+    
+}
+endExam();

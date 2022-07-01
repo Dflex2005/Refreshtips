@@ -50,13 +50,13 @@ const keyPoints = [
     id:1,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"Alkanoates are formed when acid reacts with an alkanol.",
+    text:"Soil texture refers to the degree of coarseness of soil particles.",
 },
 {
     id:2,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"The longest bone in human body is called Femur.",
+    text:"Soil structure refers to the arrangement of different soil particles present in the soil.",
 },
 // {
 //     id:3,
@@ -68,20 +68,20 @@ const keyPoints = [
     id:4,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Maket union are group of people that are responsible for coordinating and maintaining peace and order in the market.",
+    text:"Marketing research is the systematic gathering and analyzing of data about marketing of goods and services.",
 },
 {
     id:5,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Warehousing are activities involving storage of goods in an orderly manner and making them available when needed.",
+    text:"Mineral halite is the salt we add to our food.",
 },
-{
-    id:6,
-    img:"./images/business.png",
-    title:"Commercial",
-    text:"A product is a goods, services, idea or object offered to the market that will satisfy a want or need.",
-},
+// {
+//     id:6,
+//     img:"./images/business.png",
+//     title:"Commercial",
+//     text:"",
+// },
 // {
 //     id:7,
 //     img:"./images/art-icon.png",
@@ -92,13 +92,13 @@ const keyPoints = [
     id:8,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"Sovereignty means the supreme power and authority of the state over the citizens.",
+    text:"Communalism is an economic and political arrangement with emphasis on collectivity.",
 },
 {
     id:9,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"Political culture refers to the way the members of a political community behave in their political activities.",
+    text:"Constitution is a body of agreed rules and principles that states how the powers of governing a country is given and exercised.",
 }
 ];
 
