@@ -50,13 +50,13 @@ const keyPoints = [
     id:1,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"Soil texture refers to the degree of coarseness of soil particles.",
+    text:"Dentition is the arrangement of teeth in an organism.",
 },
 {
     id:2,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"Soil structure refers to the arrangement of different soil particles present in the soil.",
+    text:"The major raw material in a plastic industry is called ethene",
 },
 // {
 //     id:3,
@@ -68,13 +68,13 @@ const keyPoints = [
     id:4,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Marketing research is the systematic gathering and analyzing of data about marketing of goods and services.",
+    text:"Mobiilization is the process of creating groups, association, and organisation with the aim of collective goals.",
 },
 {
     id:5,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Mineral halite is the salt we add to our food.",
+    text:"Services are intangible product which cannot be seen or touched that are provided to consumers or other organisation.",
 },
 // {
 //     id:6,
@@ -92,13 +92,13 @@ const keyPoints = [
     id:8,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"Communalism is an economic and political arrangement with emphasis on collectivity.",
+    text:"A prose is an ordinary non-metrical form of writing or spoken language.",
 },
 {
     id:9,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"Constitution is a body of agreed rules and principles that states how the powers of governing a country is given and exercised.",
+    text:"The executive arm of government implement and execute the law.",
 }
 ];
 

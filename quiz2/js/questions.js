@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the nearest in meaning <br>The idea was so <em><strong>far-fetched</strong></em> that we could not even consider it.",
-        answer: "unrealistic",
+        question: "Choose the nearest in meaning <br> Solomon <em><strong>blew up</strong></em> the balloons for the children's party.",
+        answer: "inflated",
         options: [
-            "unyielding",
-            "artifical",
-            "far behind",
-            "unrealistic"
+            "inflated",
+            "deflated",
+            "burst",
+            "exploded"
         ]
     },
     {
         numb: 2,
-        question: "Solomon would have liked _______ the story about magic.",
-        answer: "to believe",
+        question: "The two children went to watch ________ of the guard outside the palace.",
+        answer: "the changing",
         options: [
-            "believe",
-            "to believe",
-            "believing",
-            "belief"
+            "the change",
+            "the changing",
+            "changing",
+            "changed"
         ]
     },
     {
         numb: 3,
-        question: "Choose the idea that express the following sentence <br> EITHER DAVID OR EMMANUEL WILL HELP YOU",
-        answer: "One of them will help you",
+        question: "Choose the idea that express the following sentence <br> MY DOOR IS ALWAYS OPEN TO MR SAMUEL.",
+        answer: "Mr samuel is a welcome visitor at any time",
         options: [
-            "None of them will help you",
-            "One of them will help you",
-            "Both of them will help you",
-            "David will help but emmanuel will not"
+            "Mr samuel has his own key to my house",
+            "Mr samuel is not welcome to my house",
+            "My door is always open to anybody",
+            "Mr samuel is a welcome visitor at any time"
         ]
     },
     {
         numb: 4,
-        question: "The variance of a given distribution is 25. What is the standard deviation.",
-        answer: "5",
+        question: "A fair dice is tossed once, what is the probabilty of obtaining neither 2 nor 4",
+        answer: "2/3",
         options: [
-            "25",
-            "125",
-            "5",
-            "0"
+            "2/5",
+            "4/5",
+            "2/3",
+            "3"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of ATM",
-        answer: "Automatic Teller Machine",
+        question: "What is the full meaning of SUV",
+        answer: "Sport Utility Vehicle",
         options: [
-            "Automatic Teller Machines",
-            "Automatic Tax Machine",
-            "Automatic Teller Machine",
-            "Automatical Teller Machine"
+            "Sport Utilities Vehicles",
+            "Sport Utility Vehicle",
+            "Sporty Utility Vehicle",
+            "Sport Utilize Vehicle"
         ]
     }
 ];
