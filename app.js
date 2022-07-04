@@ -50,31 +50,31 @@ const keyPoints = [
     id:1,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"Dentition is the arrangement of teeth in an organism.",
+    text:"The path travelled by a projectile is a parabola called its trajectory.",
 },
 {
     id:2,
     img:"./images/science-icon1.png",
     title:"Science",
-    text:"The major raw material in a plastic industry is called ethene",
+    text:"There are six carbon atoms in a benzene ring.",
 },
-// {
-//     id:3,
-//     img:"./images/science-icon1.png",
-//     title:"Science",
-//     text:"",
-// },
+{
+    id:3,
+    img:"./images/science-icon1.png",
+    title:"Science",
+    text:"Oxygen is the most abundant element on earth.",
+},
 {
     id:4,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Mobiilization is the process of creating groups, association, and organisation with the aim of collective goals.",
+    text:"Imprest system is the system for recording petty cash book",
 },
 {
     id:5,
     img:"./images/business.png",
     title:"Commercial",
-    text:"Services are intangible product which cannot be seen or touched that are provided to consumers or other organisation.",
+    text:"The major advantage of advertisement is to increase the sales of a business.",
 },
 // {
 //     id:6,
@@ -92,13 +92,13 @@ const keyPoints = [
     id:8,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"A prose is an ordinary non-metrical form of writing or spoken language.",
+    text:"Metaphor is a direct comparison between two dissimilar object.",
 },
 {
     id:9,
     img:"./images/art-icon.png",
     title:"Art",
-    text:"The executive arm of government implement and execute the law.",
+    text:"Power is the ability to impact ones will into another through the use of sanction.",
 }
 ];
 

@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Choose the nearest in meaning <br> Solomon <em><strong>blew up</strong></em> the balloons for the children's party.",
-        answer: "inflated",
+        question: "Choose the opposite in meaning <br>The cattle strayed because they were <em><strong>untended</strong></em>.",
+        answer: "looked after",
         options: [
-            "inflated",
-            "deflated",
-            "burst",
-            "exploded"
+            "loose",
+            "looked after",
+            "looked for",
+            "kept"
         ]
     },
     {
         numb: 2,
-        question: "The two children went to watch ________ of the guard outside the palace.",
-        answer: "the changing",
+        question: "Try to think of something pleasant whenever you ________ depressed.",
+        answer: "are feeling",
         options: [
-            "the change",
-            "the changing",
-            "changing",
-            "changed"
+            "feels",
+            "feeling",
+            "felt",
+            "are feeling"
         ]
     },
     {
         numb: 3,
-        question: "Choose the idea that express the following sentence <br> MY DOOR IS ALWAYS OPEN TO MR SAMUEL.",
-        answer: "Mr samuel is a welcome visitor at any time",
+        question: "Choose the idea that express the following sentence <br> IT IS HIGHLY IMPROBABLE THAT IT WILL SNOW IN AUGUST.",
+        answer: "It is unlikely that it will snow in August",
         options: [
-            "Mr samuel has his own key to my house",
-            "Mr samuel is not welcome to my house",
-            "My door is always open to anybody",
-            "Mr samuel is a welcome visitor at any time"
+            "The snowfall will probably be high in August",
+            "It is impossible that it will snow in August",
+            "It is unlikely that it will snow in August",
+            "It is possible that it will snow in August"
         ]
     },
     {
         numb: 4,
-        question: "A fair dice is tossed once, what is the probabilty of obtaining neither 2 nor 4",
-        answer: "2/3",
+        question: "A fair dice is tossed once, what is the probabilty of obtaining a odd numbers",
+        answer: "1/2",
         options: [
             "2/5",
-            "4/5",
+            "5/6",
             "2/3",
-            "3"
+            "1/2"
         ]
     },
     {
         numb: 5,
-        question: "What is the full meaning of SUV",
-        answer: "Sport Utility Vehicle",
+        question: "What is the full meaning of LAN",
+        answer: "Local Area Network",
         options: [
-            "Sport Utilities Vehicles",
-            "Sport Utility Vehicle",
-            "Sporty Utility Vehicle",
-            "Sport Utilize Vehicle"
+            "Locally Area Network",
+            "Local Area Networks",
+            "Local Area Network",
+            "Local Areas Network"
         ]
     }
 ];
