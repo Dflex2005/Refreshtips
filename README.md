@@ -1,2 +1,0 @@
-# Refreshtips
-Educational blog site
